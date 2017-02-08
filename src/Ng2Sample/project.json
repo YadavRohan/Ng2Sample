@@ -6,7 +6,8 @@
     "Microsoft.AspNetCore.Server.Kestrel": "1.1.0",
     "Microsoft.AspNetCore.StaticFiles": "1.1.0",
     "Microsoft.Extensions.Logging.Console": "1.1.0",
-    "Microsoft.NETCore.App": "1.1.0"
+    "Microsoft.NETCore.App": "1.1.0",
+    "Chutzpah": "4.3.3"
   },
 
   "tools": {
@@ -24,8 +25,9 @@
 
   "runtimes": {
     "win10-x64": {},
-    "osx.10.10-x64": {}
-  },
+    "osx.10.10-x64": {},
+    "win8-x64": {}
+ },
 
   "buildOptions": {
     "emitEntryPoint": true,
