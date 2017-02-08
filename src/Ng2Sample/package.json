@@ -26,14 +26,16 @@
   },
   "devDependencies": {
     "@types/core-js": "^0.9.34",
+    "@types/jasmine": "^2.5.41",
     "@types/node": "^6.0.45",
     "concurrently": "^3.0.0",
-    "lite-server": "^2.2.2",
-    "typescript": "^2.0.3",
     "del": "2.2.0",
     "gulp": "3.9.0",
     "gulp-tsconfig": "^0.1.0",
     "gulp-watch": "^4.3.5",
-    "gulp-webserver": "^0.9.1"
+    "gulp-webserver": "^0.9.1",
+    "jasmine-core": "^2.5.2",
+    "lite-server": "^2.2.2",
+    "typescript": "^2.0.3"
   }
 }

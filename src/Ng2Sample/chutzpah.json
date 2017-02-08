@@ -1,0 +1,36 @@
+﻿{
+  "Framework": "jasmine",
+
+  "Compile": {
+    "Extensions": [ ".ts" ],
+    "ExtensionsWithNoOutput": [ ".d.ts" ],
+  },
+
+  "Tests": [
+    {
+      "Includes": [ "*/test/*.ts" ],
+      "Excludes": [ "*/test/*.d.ts" ]
+    }
+  ],
+
+  "References": [
+    {
+      "Includes": [ "*/app/*.ts" ],
+      "Excludes": [ "*/app/*.d.ts" ]
+    },
+    {
+      "Includes": [
+        "node_modules/@angular*/**/*.js",
+        "node_modules/rxjs*/**/*.js",
+        "node_modules/angular2-in-memory-web-api*/**/*.js",
+        "node_modules/core-js*/**/*.js",
+        "node_modules/zone.js*/**/*.js",
+        "node_modules/reflect-metadata*/**/*.js",
+        "node_modules/systemjs*/**/*.js",
+        "node_modules/lodash/dist/lodash.min.js",
+        "node_modules/bootstrap/dist/js/bootstrap.min.js"
+      ]
+    }
+  ]
+}
+

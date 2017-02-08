@@ -73,7 +73,7 @@ gulp.task('tsconfig', function () {
         }
     });
 
-    return gulp.src(["app/**/*.ts", "typings/index.d.ts"])
+    return gulp.src(["app/**/*.ts", "test/*.ts", "typings/index.d.ts"])
         .pipe(tsConfig())
         .pipe(gulp.dest('.'));
 
